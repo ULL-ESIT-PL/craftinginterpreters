@@ -1,3 +1,7 @@
+This branch contains  my personal copy of the "Crafting Interpreters" repository 
+and my progress while reading the book. See [docs/README.md](docs/README.md) for more details.
+
+
 This is the repo used for the in-progress book "[Crafting Interpreters][]". It
 contains the Markdown text of the book, full implementations of both
 interpreters, as well as the build system to weave the two together into the

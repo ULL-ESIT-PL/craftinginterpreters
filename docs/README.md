@@ -1,3 +1,6 @@
+
+I am using the branch `casiano`.
+
 ## Tools
 
 First, I have installed dart version:
@@ -201,9 +204,77 @@ c
 c
 ```
 
+
 ```
 ➜  craftinginterpreters git:(casiano) ✗ ./jlox test/assignment/associativity.lox 
 c
 c
 c
+```
+
+## Building the book site
+
+We can build the book site with:
+
+```sh
+➜  craftinginterpreters git:(casiano) make book
+- site/index.css
+- site/style.css
+✓ Crafting Interpreters (14 words)
+✓ Dedication (23 words)
+✓ Acknowledgements (309 words)
+...
+✓ Backmatter (61 words)
+  ✓ A1. Appendix I (614 words)
+  ✓ A2. Appendix II (1611 words, 341 loc)
+Built 207,252 words and 5,336 lines of code (232,385 total words) in 1.17 seconds
+```
+But it is much better to do `make serve` to have a local server with live reload:
+
+```sh
+➜  craftinginterpreters git:(casiano) ✗ make serve
+- site/index.css
+- site/style.css
+✓ Crafting Interpreters (14 words)
+✓ Dedication (23 words)
+✓ Acknowledgements (309 words)
+✓ Table of Contents (14 words)
+✓ I. Welcome (140 words)
+  ✓ 1. Introduction (3913 words)
+  ✓ 2. A Map of the Territory (5181 words)
+  ✓ 3. The Lox Language (6595 words)
+✓ II. A Tree-Walk Interpreter (185 words)
+  ✓ 4. Scanning (7193 words, 294 loc)
+  ✓ 5. Representing Code (7758 words, 169 loc)
+  ✓ 6. Parsing Expressions (7546 words, 169 loc)
+  ✓ 7. Evaluating Expressions (5546 words, 138 loc)
+  ✓ 8. Statements and State (10223 words, 202 loc)
+  ✓ 9. Control Flow (5481 words, 122 loc)
+  ✓ 10. Functions (7976 words, 180 loc)
+  ✓ 11. Resolving and Binding (7787 words, 231 loc)
+  ✓ 12. Classes (9559 words, 235 loc)
+  ✓ 13. Inheritance (5130 words, 98 loc)
+✓ III. A Bytecode Virtual Machine (161 words)
+  ✓ 14. Chunks of Bytecode (9236 words, 225 loc)
+  ✓ 15. A Virtual Machine (7176 words, 142 loc)
+  ✓ 16. Scanning on Demand (7238 words, 332 loc)
+  ✓ 17. Compiling Expressions (8025 words, 248 loc)
+  ✓ 18. Types of Values (5847 words, 143 loc)
+  ✓ 19. Strings (6520 words, 164 loc)
+  ✓ 20. Hash Tables (10058 words, 192 loc)
+  ✓ 21. Global Variables (6006 words, 177 loc)
+  ✓ 22. Local Variables (5667 words, 138 loc)
+  ✓ 23. Jumping Back and Forth (7504 words, 165 loc)
+  ✓ 24. Calls and Functions (11683 words, 295 loc)
+  ✓ 25. Closures (12775 words, 226 loc)
+  ✓ 26. Garbage Collection (10960 words, 213 loc)
+  ✓ 27. Classes and Instances (4785 words, 134 loc)
+  ✓ 28. Methods and Initializers (10076 words, 196 loc)
+  ✓ 29. Superclasses (5556 words, 95 loc)
+  ✓ 30. Optimization (10253 words, 72 loc)
+✓ Backmatter (61 words)
+  ✓ A1. Appendix I (614 words)
+  ✓ A2. Appendix II (1611 words, 341 loc)
+Built 207,252 words and 5,336 lines of code (232,385 total words) in 1.14 seconds
+Serving at http://localhost:8000
 ```
