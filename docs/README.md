@@ -286,3 +286,8 @@ Serving at http://localhost:8000
 ```
 Then you visit `http://localhost:8000` in your browser to see the book site. If you modify any markdown file 
 in folder `book/`, the site is automatically rebuilt and you can refresh the browser to see the changes.
+
+
+## Reading Chapter 3: The Lox Language
+
+Se file [docs/reading/chapter-3-the-lox-language/README.md](/docs/reading/chapter-3-the-lox-language/README.md).
