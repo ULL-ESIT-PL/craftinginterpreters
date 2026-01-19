@@ -49,4 +49,4 @@ I found the comment
 
 > Lox’s approach to scoping hews closely to Scheme. 
 
-See [docs/reading/chapter-3-the-lox-language/schemescoping-versus-javascriptscoping.chatgpt.md](/docs/reading/chapter-3-the-lox-language/schemescoping-versus-javascriptscoping.chatgpt.md) for an explanation of the difference between JavaScript scoping and Scheme scoping.
+See [docs/reading/chapter-3-the-lox-language/schemescoping-versus-javascriptscoping.chatgpt.md](/docs/reading/chapter-3-the-lox-language/schemescoping-versus-javascriptscoping.chatgpt.md) for an explanation by ChatGPT of the difference between JavaScript scoping and Scheme scoping.
