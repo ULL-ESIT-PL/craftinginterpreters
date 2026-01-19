@@ -94,7 +94,7 @@ Resolving dependencies... (1.5s)
 Got dependencies!
 ```
 
-Then I followed the section "Building" in [README.md](/docs/README.md):
+Then I followed the section "Building" in [README.md](/README.md):
 
 ````markdown
 ### Building
