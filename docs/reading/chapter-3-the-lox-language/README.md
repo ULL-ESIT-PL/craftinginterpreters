@@ -1,3 +1,5 @@
+# Reading Chapter 3: The Lox Language
+
 ## Instructions
 
 We open the file with the markdown for chapter 3 [book/the-lox-language.md](/book/the-lox-language.md) and visit http://localhost:8000/the-lox-language.html.
