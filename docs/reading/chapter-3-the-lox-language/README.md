@@ -14,7 +14,7 @@ Being at the root of the project, [once we have built the C interpreter](/docs/R
 > ^D
 ```
 
-## Hello, Lox! 
+## Hello, Lox! 3.1
 
 Read Section [3.1](https://craftinginterpreters.com/the-lox-language.html#hello-lox).
 
@@ -40,3 +40,13 @@ the cured, cold-smoked salmon before. If not, give it a try too.
 
 The word **lox** also means a type of cured, cold-smoked salmon, very common in Jewish / American cuisine,
 often eaten on bagels with cream cheese
+
+## A High-Level Language 3.2
+
+Read Section [3.2](https://craftinginterpreters.com/the-lox-language.html#a-high-level-language).
+
+I found the comment 
+
+> Lox’s approach to scoping hews closely to Scheme. 
+
+See [docs/reading/chapter-3-the-lox-language/schemescoping-versus-javascriptscoping.chatgpt.md](/docs/reading/chapter-3-the-lox-language/schemescoping-versus-javascriptscoping.chatgpt.md) for an explanation of the difference between JavaScript scoping and Scheme scoping.
