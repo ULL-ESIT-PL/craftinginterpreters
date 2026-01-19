@@ -287,6 +287,20 @@ Serving at http://localhost:8000
 Then you visit `http://localhost:8000` in your browser to see the book site. If you modify any markdown file 
 in folder `book/`, the site is automatically rebuilt and you can refresh the browser to see the changes.
 
+## Instructions for Reading these notes
+
+We open the file with the markdown for chapter 3 [book/the-lox-language.md](/book/the-lox-language.md) and visit 
+your book server at the corresponding section URL. For instance: http://localhost:8000/the-lox-language.html.
+
+Being at the root of the project, [once we have built the C interpreter](/docs/README.md), we run:
+
+```sh
+➜  craftinginterpreters git:(casiano) ✗ export PATH=$PATH:`pwd`
+➜  examples git:(casiano) ✗ clox
+> print(2+3);
+5
+> ^D
+```
 
 ## Reading Chapter 3: The Lox Language
 
