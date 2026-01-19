@@ -25,7 +25,7 @@ See [docs/reading/chapter-3-the-lox-language/examples/hello.lox](/docs/reading/c
 Hello, world!
 ```
 
-See also how the comment in the book at [/book/the-lox-language.md](/book/the-lox-language.md) is [rendered on the right side](https://craftinginterpreters.com/the-lox-language.html#hello-lox), and the source markdown:
+See also how the comment in the book at [/book/the-lox-language.md](https://raw.githubusercontent.com/ULL-ESIT-PL/craftinginterpreters/refs/heads/casiano/book/the-lox-language.md) is [rendered on the right side](https://craftinginterpreters.com/the-lox-language.html#hello-lox), and the source markdown:
 
 ````markdown
 Here's your very first taste of <span name="salmon">Lox</span>:
