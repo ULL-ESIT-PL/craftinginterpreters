@@ -29,7 +29,7 @@ How can I fix this error?  Shall I install a lower version of dart? How?
 
 The answer is in [/docs/make-get-old-dart.chatgpt.md](/docs/make-get-old-dart.chatgpt.md).
 
-I followed the [first approach using `brew`](/docs/make-get-old-dart.chatgpt.md#approach-1-installing-an-old-dart-version-with-brew):
+I followed the [first approach using `brew`](/docs/make-get-old-dart.chatgpt.md#option-a-using-homebrew-simplest-on-macos):
 
 ```sh
 ➜  craftinginterpreters git:(casiano) ✗ dart --version
