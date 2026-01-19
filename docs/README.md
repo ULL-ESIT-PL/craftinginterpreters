@@ -305,4 +305,4 @@ Being at the root of the project, [once we have built the C interpreter](/docs/R
 
 ## Reading Chapter 3: The Lox Language
 
-Se file [docs/reading/chapter-3-the-lox-language/README.md](/docs/reading/chapter-3-the-lox-language/README.md).
+Se file [/docs/reading/chapter-3-the-lox-language/README.md](/docs/reading/chapter-3-the-lox-language).
