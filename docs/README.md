@@ -201,7 +201,7 @@ Makefile  asset     c         jlox      site      util      tool      clox
 
 ## Running the interpreters
 
-The C version is `clox` and the Java version is `jlox`:
+The C version is `clox` and the Java version is `jlox` (See [test/assignment/associativity.lox example](/test/assignment/associativity.lox)):
 
 ```
 ➜  craftinginterpreters git:(master) ./clox test/assignment/associativity.lox 
