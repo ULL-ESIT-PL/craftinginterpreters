@@ -284,5 +284,5 @@ But it is much better to do `make serve` to have a local server with live reload
 Built 207,252 words and 5,336 lines of code (232,385 total words) in 1.14 seconds
 Serving at http://localhost:8000
 ```
-Then you visit `http://localhost:8000` in your browser to see the book site. If you nodify any markdown file 
+Then you visit `http://localhost:8000` in your browser to see the book site. If you modify any markdown file 
 in folder `book/`, the site is automatically rebuilt and you can refresh the browser to see the changes.
