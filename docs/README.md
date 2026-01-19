@@ -27,9 +27,9 @@ So I asked ChatGPT:
 
 How can I fix this error?  Shall I install a lower version of dart? How?
 
-The answer is in [make-get-old-dart.md](/docs/make-get-old-dart.md).
+The answer is in [make-get-old-dart.md](/docs/make-get-old-dart.chatgpt.md).
 
-I followed the first approach using `brew`:ç
+I followed the first approach using `brew`:
 
 ```sh
 ➜  craftinginterpreters git:(casiano) ✗ dart --version
