@@ -29,7 +29,13 @@ How can I fix this error?  Shall I install a lower version of dart? How?
 
 The answer is in [make-get-old-dart.md](/docs/make-get-old-dart.md).
 
-I followed the first approach using `brew`.
+I followed the first approach using `brew`:ç
+
+```sh
+➜  craftinginterpreters git:(casiano) ✗ dart --version
+Dart SDK version: 2.19.6 (stable) (Tue Mar 28 13:41:04 2023 +0000) on "macos_x64"
+```
+
 After that I have:
 
 ```sh
@@ -278,3 +284,5 @@ But it is much better to do `make serve` to have a local server with live reload
 Built 207,252 words and 5,336 lines of code (232,385 total words) in 1.14 seconds
 Serving at http://localhost:8000
 ```
+Then you visit `http://localhost:8000` in your browser to see the book site. If you nodify any markdown file 
+in folder `book/`, the site is automatically rebuilt and you can refresh the browser to see the changes.

@@ -2,7 +2,7 @@
 > place. In *The Lord of the Rings* I never made anyone go farther than he could
 > on a given day.
 >
-> <cite>J. R. R. Tolkien</cite>
+> <cite>John Ronald Reuel Tolkien,</cite>
 
 We don't want to wander all over the place, so before we set off, let's scan
 the territory charted by previous language implementers. It will help us
