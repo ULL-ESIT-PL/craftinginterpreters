@@ -1,6 +1,6 @@
 # Question 
 
-It also says "Lox’s approach to scoping hews closely to Scheme". 
+The book also says "Lox’s approach to scoping hews closely to Scheme". 
 What is the difference between JavaScript scoping and Scheme scoping? 
 I thought they were pretty similar
 
