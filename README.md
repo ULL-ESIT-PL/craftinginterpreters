@@ -1,7 +1,7 @@
 This branch contains  our (crguezl) copy of the "Crafting Interpreters" repository 
 and my progress while reading the book. See [docs/README.md](docs/README.md) for more details.
-
 The remaining text is the original README.md from the main repository.
+
 ---
 
 This is the repo used for the in-progress book "[Crafting Interpreters][]". It
