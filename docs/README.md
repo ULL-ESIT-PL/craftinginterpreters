@@ -1,7 +1,7 @@
 
 I am using the branch `casiano`.
 
-## Installing the Tools
+## Installing the tools and building the book site
 
 First, I have installed dart version 3.10.7:
 
