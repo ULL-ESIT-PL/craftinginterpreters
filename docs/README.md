@@ -1,9 +1,9 @@
 
 I am using the branch `casiano`.
 
-## Tools
+## Installing the Tools
 
-First, I have installed dart version:
+First, I have installed dart version 3.10.7:
 
 ```sh
 ➜  craftinginterpreters git:(casiano) ✗ dart --version
