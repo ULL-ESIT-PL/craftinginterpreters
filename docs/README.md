@@ -36,7 +36,7 @@ I followed the [first approach using `brew`](/docs/make-get-old-dart.chatgpt.md#
 Dart SDK version: 2.19.6 (stable) (Tue Mar 28 13:41:04 2023 +0000) on "macos_x64"
 ```
 
-After that I have:
+After that I've got the dependencies with:
 
 ```sh
 ➜  craftinginterpreters git:(casiano) ✗ make get
@@ -286,6 +286,12 @@ Serving at http://localhost:8000
 ```
 Then you visit `http://localhost:8000` in your browser to see the book site. If you modify any markdown file 
 in folder `book/`, the site is automatically rebuilt and you can refresh the browser to see the changes.
+
+## Visual Studio Code Syntax Highlighting
+
+There are several VS Code extensions for Lox syntax highlighting. I have installed the one by [dberezin](https://marketplace.visualstudio.com/items?itemName=dberezin.lox-language).
+
+![](/docs/images/syntax-highlighting.lox.png)
 
 ## Instructions for Reading these notes
 
