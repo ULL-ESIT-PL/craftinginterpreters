@@ -103,3 +103,36 @@ holds on to the variables it needs.
 ````
 
 Landin introduces the term "closure" in his 1966 paper ["The Mechanical Evaluation of Expressions"](https://jhc.sjtu.edu.cn/~yutingwang/files/fp/landin-1964.pdf) (not in "The Next 700 Programming Languages", which came later in 1966).
+The following excerpt from the paper describes the concept of closure:
+
+> ### Mechanical evaluation
+
+> In order to mechanize the above rule, we represent
+> an environment by a list-structure made up of name-value pairs. 
+> There is a function designated by location 
+> such that if E* is this structure and X is an identifier then
+>
+>`locationE*X`
+>
+> denotes the selector that selects the value of X from `E*`.
+>
+> So if `E*` represents the environment `E` then the following
+>equation holds:
+>
+> `valEX = locationE*XE*`.
+>
+> We shall not bother below to distinguish between E and `E*`.
+>
+> Also we represent the value of a lambda-expression by a bundle of information called a "**closure**," comprising the lambda-expression and the environment relative to which it was evaluated. We must therefore arrange that such
+a bundle is correctly interpreted whenever it has to be applied to some argument. More precisely:
+>
+> a **closure** has an *environment part* which is a list whose two items are:
+>
+>* (1) an environment
+>* (2) an identifier or list of identifiers,
+>
+>and a *control part* which consists of a list whose sole item is an `AE`.
+>
+>The value relative to E of a lambda-expression X is represented
+>by the closure denoted by
+>`constructclosure((E, bvX), unitlist(bodyX))`.
