@@ -78,3 +78,28 @@ true
 true
 true
 ```
+
+## Functions 3.80
+
+### Closures 3.8.1
+
+Curious the aside about closures:
+
+````markdown
+<aside name="closure">
+
+Peter J. Landin coined the term "closure". Yes, he invented damn near half the
+terms in programming languages. Most of them came out of one incredible paper,
+"[The Next 700 Programming Languages][svh]".
+
+[svh]: https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/landin-next-700.pdf
+
+In order to implement these kind of functions, you need to create a data
+structure that bundles together the function's code and the surrounding
+variables it needs. He called this a "closure" because it *closes over* and
+holds on to the variables it needs.
+
+</aside>
+````
+
+Landin introduces the term "closure" in his 1966 paper ["The Mechanical Evaluation of Expressions"](https://jhc.sjtu.edu.cn/~yutingwang/files/fp/landin-1964.pdf) (not in "The Next 700 Programming Languages", which came later in 1966).
