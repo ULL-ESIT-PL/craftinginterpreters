@@ -30,14 +30,14 @@ print someVariable; // expect: Breakfast
 var baconAndToast = Breakfast("bacon", "toast");
 baconAndToast.serve("Dear Reader");
 
-baconAndToast.cook();
+baconAndToast.cook(); // expect: Eggs a-fryin'!
 
 fun drinkCola() {
   print "Cola!";
 }
 
 var benedict = Brunch("ham", "English muffin", nil);
-benedict.serve("Noble Reader");
+benedict.serve("Noble Reader"); // expect: Enjoy your ham and English muffin, Noble Reader.
 benedict.drink(); // expect: How about a Bloody Mary?
 benedict.drink = drinkCola;
 benedict.drink(); // expect: Cola!
