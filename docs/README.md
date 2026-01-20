@@ -291,7 +291,7 @@ in folder `book/`, the site is automatically rebuilt and you can refresh the bro
 
 There are several VS Code extensions for Lox syntax highlighting. I have installed the one by [dberezin](https://marketplace.visualstudio.com/items?itemName=dberezin.lox-language).
 
-<img src="/docs/images/syntax-highlighting.lox.png" alt="Lox syntax highlighting in VS Code" width="600"/>
+<img src="/docs/images/syntax-highlighting.lox.png" alt="Lox syntax highlighting in VS Code" width="300"/>
 
 ## Instructions for Reading these notes
 
