@@ -83,7 +83,7 @@ true
 
 ### Closures 3.8.1
 
-Curious the aside about closures:
+Curious, the aside about closures and Landin:
 
 ````markdown
 <aside name="closure">
@@ -141,3 +141,15 @@ The function `val`is defined in a previous pragraph
 > - R3. If `X` is a combination, `valEX` can be found by first subjecting both its operator and operand to `valE`, and then applying the result of the former to the result of the latter.
 
 ## 3.9 Classes
+
+See [examples/class/breakfast.lox](/docs/reading/chapter-3-the-lox-language/examples/class/breakfast.lox)
+
+```sh
+➜  examples git:(casiano) ✗ clox class/breakfast.lox
+Breakfast
+Enjoy your bacon and toast, Dear Reader.
+Eggs a-fryin'!
+Enjoy your ham and English muffin, Noble Reader.
+How about a Bloody Mary?
+Cola!
+```
