@@ -107,10 +107,7 @@ The following excerpt from the paper describes the concept of closure:
 
 > ### Mechanical evaluation
 
-> In order to mechanize the above rule, we represent
-> an environment by a list-structure made up of name-value pairs. 
-> There is a function designated by location 
-> such that if E* is this structure and X is an identifier then
+> In order to mechanize the above rule, we represent an environment by a list-structure made up of name-value pairs. There is a function designated by location such that if `E*` is this structure and `X` is an identifier then
 >
 >`locationE*X`
 >
@@ -121,7 +118,7 @@ The following excerpt from the paper describes the concept of closure:
 >
 > `valEX = locationE*XE*`.
 >
-> We shall not bother below to distinguish between E and `E*`.
+> We shall not bother below to distinguish between `E` and `E*`.
 >
 > Also we represent the value of a lambda-expression by a bundle of information called a "**closure**," comprising the lambda-expression and the environment relative to which it was evaluated. We must therefore arrange that such
 a bundle is correctly interpreted whenever it has to be applied to some argument. More precisely:
@@ -136,3 +133,11 @@ a bundle is correctly interpreted whenever it has to be applied to some argument
 >The value relative to E of a lambda-expression X is represented
 >by the closure denoted by
 >`constructclosure((E, bvX), unitlist(bodyX))`.
+
+The function `val`is defined in a previous pragraph
+
+> - R1. If `X` is an identifier, `valEX` is `EX`;
+> - (R2. appears below);
+> - R3. If `X` is a combination, `valEX` can be found by first subjecting both its operator and operand to `valE`, and then applying the result of the former to the result of the latter.
+
+## 3.9 Classes
