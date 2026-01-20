@@ -1,4 +1,4 @@
-This branch contains  my personal copy of the "Crafting Interpreters" repository 
+This branch contains  our (crguezl) copy of the "Crafting Interpreters" repository 
 and my progress while reading the book. See [docs/README.md](docs/README.md) for more details.
 
 ---
